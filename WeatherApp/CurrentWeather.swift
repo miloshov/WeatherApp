@@ -40,7 +40,7 @@ class CurrentWeather {
         dateFormattor.dateStyle = .long
         dateFormattor.timeStyle = .none
         let currentDate = dateFormattor.string(from: Date())
-        self._date = "Today, \(currentDate)"
+        self._date = "\(currentDate)"
         
         return _date
         

@@ -76,7 +76,7 @@ class Forecast {
                         
                 let kelvinToFarenheitPreDivision = Double(min - 273.15).rounded()
                 
-                self._lowTemp = "Low \(kelvinToFarenheitPreDivision)"
+                self._lowTemp = "\(kelvinToFarenheitPreDivision)°"
                 
             }
             
@@ -84,7 +84,7 @@ class Forecast {
                 
                 let kelvinToFarenheitPreDivision = Double(max - 273.15).rounded()
                 
-                self._highTemp = "High \(kelvinToFarenheitPreDivision)"
+                self._highTemp = "\(kelvinToFarenheitPreDivision)°"
                 
             }
             

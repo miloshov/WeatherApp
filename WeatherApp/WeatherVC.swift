@@ -18,6 +18,9 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource, C
     @IBOutlet weak var weatherLbl: UILabel!
     @IBOutlet weak var weatherImage: UIImageView!
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var termometarIcon: UIImageView!
+    @IBOutlet weak var temperatureSign: UILabel!
+    @IBOutlet weak var todayLbl: UILabel!
 
     
     let locationManager = CLLocationManager()
@@ -29,6 +32,10 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource, C
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        todayLbl.isHidden = true
+        termometarIcon.isHidden = true
+        temperatureSign.isHidden = true
         
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
@@ -100,6 +107,11 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource, C
                     self.tableView.reloadData()
                     
                 }
+                
+                self.todayLbl.isHidden = false
+                self.termometarIcon.isHidden = false
+                self.temperatureSign.isHidden = false
+                
             }
             
             completed()
@@ -138,7 +150,7 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource, C
     func updateMainUi() {
         
         dateLbl.text = currentWeather.date
-        temperatureLbl.text = String(format: "%.0f°", currentWeather.currentTemp)
+        temperatureLbl.text = String(format: "%.0f°|", currentWeather.currentTemp)
         weatherLbl.text = currentWeather.weatherType
         locationLbl.text = currentWeather.cityName
         weatherImage.image = UIImage(named: currentWeather.weatherType)
