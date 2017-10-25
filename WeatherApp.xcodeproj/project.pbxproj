@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		17904EAA0315993747DD37A7 /* Pods_WeatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2894D1615DAE0835AE597AD /* Pods_WeatherApp.framework */; };
+		260D6A721FA08C1400501478 /* LaunchingTheme-750x1134@1x.gif in Resources */ = {isa = PBXBuildFile; fileRef = 260D6A711FA08C1400501478 /* LaunchingTheme-750x1134@1x.gif */; };
 		26A204EC1F990AD000A21140 /* Rajdhani-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26A204E91F990ACA00A21140 /* Rajdhani-Bold.ttf */; };
 		26A204ED1F990AD200A21140 /* Rajdhani-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26A204EA1F990ACB00A21140 /* Rajdhani-Light.ttf */; };
 		26A204EE1F990AD500A21140 /* Rajdhani-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26A204EB1F990ACB00A21140 /* Rajdhani-Medium.ttf */; };
 		26A204EF1F990AD700A21140 /* Rajdhani-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26A204E71F990ACA00A21140 /* Rajdhani-Regular.ttf */; };
 		26A204F01F990AD900A21140 /* Rajdhani-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26A204E81F990ACA00A21140 /* Rajdhani-SemiBold.ttf */; };
 		26D42A951F992AE1009F3AF7 /* Thermometer.png in Resources */ = {isa = PBXBuildFile; fileRef = 26D42A941F992ADD009F3AF7 /* Thermometer.png */; };
-		26D42A971F994307009F3AF7 /* Launchscreen-bcg-750x1134@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = 26D42A961F9942FB009F3AF7 /* Launchscreen-bcg-750x1134@2x.gif */; };
 		26DD82B51F98CFC1004DF7A8 /* LaunchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD82B41F98CFC1004DF7A8 /* LaunchScreenVC.swift */; };
 		26DD82B71F98D2D4004DF7A8 /* UIImage+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DD82B61F98D2D4004DF7A8 /* UIImage+GIF.swift */; };
 		960FBE2D1EB4B69D00637F63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960FBE2C1EB4B69D00637F63 /* AppDelegate.swift */; };
@@ -30,13 +30,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		260D6A711FA08C1400501478 /* LaunchingTheme-750x1134@1x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "LaunchingTheme-750x1134@1x.gif"; sourceTree = "<group>"; };
 		26A204E71F990ACA00A21140 /* Rajdhani-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rajdhani-Regular.ttf"; sourceTree = "<group>"; };
 		26A204E81F990ACA00A21140 /* Rajdhani-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rajdhani-SemiBold.ttf"; sourceTree = "<group>"; };
 		26A204E91F990ACA00A21140 /* Rajdhani-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rajdhani-Bold.ttf"; sourceTree = "<group>"; };
 		26A204EA1F990ACB00A21140 /* Rajdhani-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rajdhani-Light.ttf"; sourceTree = "<group>"; };
 		26A204EB1F990ACB00A21140 /* Rajdhani-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rajdhani-Medium.ttf"; sourceTree = "<group>"; };
 		26D42A941F992ADD009F3AF7 /* Thermometer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Thermometer.png; sourceTree = "<group>"; };
-		26D42A961F9942FB009F3AF7 /* Launchscreen-bcg-750x1134@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Launchscreen-bcg-750x1134@2x.gif"; sourceTree = "<group>"; };
 		26DD82B41F98CFC1004DF7A8 /* LaunchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenVC.swift; sourceTree = "<group>"; };
 		26DD82B61F98D2D4004DF7A8 /* UIImage+GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+GIF.swift"; sourceTree = "<group>"; };
 		481104AE5678D1E0B89BE1C6 /* Pods-WeatherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherApp/Pods-WeatherApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 			children = (
 				26A204F11F990AE600A21140 /* Fonts */,
 				26D42A941F992ADD009F3AF7 /* Thermometer.png */,
-				26D42A961F9942FB009F3AF7 /* Launchscreen-bcg-750x1134@2x.gif */,
+				260D6A711FA08C1400501478 /* LaunchingTheme-750x1134@1x.gif */,
 			);
 			path = Resaurces;
 			sourceTree = "<group>";
@@ -211,10 +211,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				26D42A951F992AE1009F3AF7 /* Thermometer.png in Resources */,
+				260D6A721FA08C1400501478 /* LaunchingTheme-750x1134@1x.gif in Resources */,
 				26A204F01F990AD900A21140 /* Rajdhani-SemiBold.ttf in Resources */,
 				26A204EF1F990AD700A21140 /* Rajdhani-Regular.ttf in Resources */,
 				960FBE371EB4B69D00637F63 /* LaunchScreen.storyboard in Resources */,
-				26D42A971F994307009F3AF7 /* Launchscreen-bcg-750x1134@2x.gif in Resources */,
 				26A204ED1F990AD200A21140 /* Rajdhani-Light.ttf in Resources */,
 				960FBE341EB4B69D00637F63 /* Assets.xcassets in Resources */,
 				26A204EE1F990AD500A21140 /* Rajdhani-Medium.ttf in Resources */,
@@ -435,7 +435,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hajora.WeatherApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -452,7 +452,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hajora.WeatherApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;

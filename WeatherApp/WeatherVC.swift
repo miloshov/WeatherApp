@@ -18,8 +18,6 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource, C
     @IBOutlet weak var weatherLbl: UILabel!
     @IBOutlet weak var weatherImage: UIImageView!
     @IBOutlet weak var tableView: UITableView!
-    @IBOutlet weak var termometarIcon: UIImageView!
-    @IBOutlet weak var temperatureSign: UILabel!
     @IBOutlet weak var todayLbl: UILabel!
 
     
@@ -34,8 +32,7 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource, C
         super.viewDidLoad()
         
         todayLbl.isHidden = true
-        termometarIcon.isHidden = true
-        temperatureSign.isHidden = true
+
         
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
@@ -109,8 +106,7 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource, C
                 }
                 
                 self.todayLbl.isHidden = false
-                self.termometarIcon.isHidden = false
-                self.temperatureSign.isHidden = false
+
                 
             }
             

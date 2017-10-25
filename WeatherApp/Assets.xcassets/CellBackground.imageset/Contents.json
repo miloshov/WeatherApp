@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "iphone",
-      "filename" : "weather appBAR BCG .png",
+      "filename" : "weather app optimArtboard 15.png",
       "scale" : "1x"
     },
     {
       "idiom" : "iphone",
-      "filename" : "weather appBAR BCG @2x.png",
+      "filename" : "weather app optimArtboard 15@2x.png",
       "scale" : "2x"
     },
     {
       "idiom" : "iphone",
-      "filename" : "weather appBAR BCG @3x.png",
+      "filename" : "weather app optimArtboard 15@3x.png",
       "scale" : "3x"
     }
   ],

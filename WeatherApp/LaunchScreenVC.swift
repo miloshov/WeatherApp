@@ -17,8 +17,8 @@ class LaunchScreenVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        gifImage.loadGif(name: "Launchscreen-bcg-750x1134@2x")
-        let timer = Timer.scheduledTimer(timeInterval: 4.5, target: self, selector: #selector(ShowMainViewController), userInfo: nil, repeats: false)
+        gifImage.loadGif(name: "LaunchingTheme-750x1134@1x")
+        _ = Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(ShowMainViewController), userInfo: nil, repeats: false)
 
     }
         
